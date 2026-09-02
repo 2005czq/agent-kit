@@ -1,0 +1,6 @@
+skills:
+  - source: https://github.com/google-labs-code/stitch-skills
+    branch: main
+    sub-dir: plugins/stitch-design
+    skills: [generate-design, code-to-design, extract-design-md, extract-static-html,
+             manage-design-system, upload-to-stitch]

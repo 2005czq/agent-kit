@@ -1,0 +1,5 @@
+skills:
+  - source: https://github.com/mattpocock/skills
+    branch: main
+    sub-dir: skills/misc
+    skills: [setup-pre-commit]

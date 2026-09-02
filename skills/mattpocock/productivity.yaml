@@ -1,0 +1,5 @@
+skills:
+  - source: https://github.com/mattpocock/skills
+    branch: main
+    sub-dir: skills/productivity
+    skills: [grill-me, grilling, handoff, teach]

@@ -1,0 +1,18 @@
+skills:
+  - source: https://github.com/mattpocock/skills
+    branch: main
+    sub-dir: skills/engineering
+    skills: [ask-matt, code-review, codebase-design, diagnosing-bugs, domain-modeling,
+             grill-with-docs, implement, improve-codebase-architecture, prototype,
+             research, resolving-merge-conflicts, setup-matt-pocock-skills, tdd,
+             to-spec, to-tickets, triage, wayfinder]
+
+  - source: https://github.com/mattpocock/skills
+    branch: main
+    sub-dir: skills/productivity
+    skills: [grill-me, grilling, handoff, teach]
+
+  - source: https://github.com/mattpocock/skills
+    branch: main
+    sub-dir: skills/misc
+    skills: [setup-pre-commit]
