@@ -1,0 +1,17 @@
+# kst sync 的产物。.mcp.json 等含解析后的明文 token，绝不可提交。
+/.agents/
+/.claude/
+/.codex/
+/.pi/
+/.mcp.json
+/.cursor/
+/.vscode/
+
+# 本机密钥
+/.env
+/.env.*
+
+*.log
+*.tmp
+*.swp
+.DS_Store
