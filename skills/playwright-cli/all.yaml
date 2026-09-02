@@ -1,0 +1,4 @@
+skills:
+  - source: https://github.com/microsoft/playwright-cli
+    branch: main
+    skills: [playwright-cli]

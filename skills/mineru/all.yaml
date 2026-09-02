@@ -1,0 +1,3 @@
+skills:
+  - source: /home/zihim/agent-kit/local
+    skills: [mineru-document-extractor]
