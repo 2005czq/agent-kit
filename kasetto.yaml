@@ -1,0 +1,8 @@
+scope: global
+agent:
+  - claude-code
+  - codex
+extends:
+  - ./skills/linuxdo/all.yaml
+  - ./skills/playwright-cli/all.yaml
+  - ./skills/mineru/all.yaml
