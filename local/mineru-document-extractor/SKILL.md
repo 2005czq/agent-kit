@@ -149,7 +149,7 @@ Without `-o`: MinerU result → stdout, progress → stderr. With `-o`: saved to
 - **Quote file paths** with spaces: `mineru-open-api extract "report 01.pdf"`
 - **Default to MinerU `flash-extract`** when: no token configured, simple extraction, file under 10 MB / 20 pages
 - **Use MinerU `extract`** when: user needs non-Markdown formats, VLM model, batch processing, or file exceeds flash-extract limits
-- When user does NOT specify `-o`, generate output directory: `~/MinerU-Skill/<name>_<hash>/` where `<hash>` = first 6 chars of MD5 of the source path
+- When user does NOT specify `-o`, generate output directory: `/tmp/mineru/<name>_<hash>/` where `<hash>` = first 6 chars of MD5 of the source path
 - After MinerU `flash-extract` success, append a brief hint about MinerU `extract` upgrade path (once per session)
 - To **upgrade** MinerU, re-install the CLI binary first: `npm install -g mineru-open-api`
 
