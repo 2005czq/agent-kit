@@ -6,3 +6,4 @@ extends:
   - ./skills/linuxdo/all.yaml
   - ./skills/playwright-cli/all.yaml
   - ./skills/mineru/all.yaml
+  - ./skills/agently-mail/all.yaml

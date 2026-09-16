@@ -1,0 +1,3 @@
+skills:
+  - source: /home/zihim/agent-kit/local/agently-mail
+    skills: [agently-mail]
