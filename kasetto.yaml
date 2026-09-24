@@ -7,3 +7,4 @@ extends:
   - ./skills/playwright-cli/all.yaml
   - ./skills/mineru/all.yaml
   - ./skills/agently-mail/all.yaml
+  - ./skills/aassistant/all.yaml
