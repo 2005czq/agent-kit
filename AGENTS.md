@@ -4,7 +4,10 @@
 - Prefer repo commands, lockfiles, scripts, and conventions; keep edits focused and run the narrowest useful validation.
 - No irreversible remote actions without explicit request. Always run `shellcheck` before executing a shell script.
 - Follow XDG Base Directory conventions and Angular-style Conventional Commits (`type(scope): summary`).
+- Use `/tmp` for all temporary files and test artifacts. Never use `~/tmp`.
 - For `sudo` work, write and `shellcheck` a minimal `~/1.sh` (it is disposable) for the user to run.
+- Implement only what current requirements need; do not add flexibility, options, or abstractions for possible future needs. Merge duplicated logic only on its third occurrence.
+- In tests, assert observable behavior rather than implementation details, keep setup minimal, and prefer duplication over shared test helpers.
 
 ## Environment & Tools
 
@@ -37,6 +40,8 @@
 - Use `--raw eval | jq -c` for clean and necessary payloads, or save large output via `--filename` to query with `rg`/`jq`. Never dump raw HTML, full `body.innerText`, or large unfiltered collections.
 - Use `run-code` with semantic waits (locators/states, no fixed sleeps) for multi-step tasks; return compact summaries.
 - Use screenshots only for visual layout/canvas verification. Summarize console logs, network requests, and traces as artifacts.
+- Do not perform final verification, build, or start a static server unless the user explicitly requests it.
+- Prefer a hot-reloading dev server over a production build when you need to run the app.
 
 ### Chrome (Windows)
 
