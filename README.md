@@ -46,7 +46,7 @@ mcps:
 
 创建或编辑预设文件 `skills/<provider>/<name>.yaml`，按提供方和类别组织。
 
-**从上游 Git 源**：声明 `source` + `branch/ref` + `sub-dir` + `skills`。
+**从上游 Git 源** (优先)：声明 `source` + `branch/ref` + `sub-dir` + `skills`。
 
 ```yaml
 # skills/stitch/utilities.yaml
