@@ -1,5 +1,0 @@
-skills:
-  - source: https://github.com/ysyecust/lecture-to-notes
-    branch: main
-    sub-dir: skills
-    skills: [lecture-to-notes, paper-to-html]
