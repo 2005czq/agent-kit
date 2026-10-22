@@ -2,6 +2,7 @@ scope: global
 agent:
   - claude-code
   - codex
+  - pi
 extends:
   - ./skills/linuxdo/all.yaml
   - ./skills/playwright-cli/all.yaml

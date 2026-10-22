@@ -13,7 +13,7 @@ agent-kit/
 
 ## 使用
 
-**初始化**：`cd <project> && printf 'scope: project\nagent: [claude-code, codex]\n' > kasetto.yaml`
+**初始化**：`cd <project> && printf 'scope: project\nagent: [claude-code, codex, pi]\n' > kasetto.yaml`
 
 **配置**：
 
