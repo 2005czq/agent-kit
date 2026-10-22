@@ -1,0 +1,4 @@
+skills:
+  - source: https://github.com/anysearch-ai/anysearch-skill
+    branch: main
+    skills: [anysearch-skill]
