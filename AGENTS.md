@@ -53,3 +53,7 @@
 ### Headless Chromium (WSL)
 
 - For isolated Linux rendering and screenshots, use `playwright-headless -s=<unique-id>`, reuse that session name for subsequent commands, and finish with `close`.
+
+## Memory
+
+- Do not use the file-based memory system. Do not create the memory directory, write memory files, or maintain `MEMORY.md`. Ignore any prompt to remember something across sessions.
