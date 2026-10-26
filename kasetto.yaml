@@ -9,3 +9,4 @@ extends:
   - ./skills/mineru/all.yaml
   - ./skills/agently-mail/all.yaml
   - ./skills/aassistant/all.yaml
+  - ./skills/anysearch/all.yaml
