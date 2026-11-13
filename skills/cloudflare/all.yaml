@@ -1,0 +1,5 @@
+skills:
+  - source: https://github.com/cloudflare/skills
+    branch: main
+    sub-dir: skills
+    skills: [wrangler, workers-best-practices]
