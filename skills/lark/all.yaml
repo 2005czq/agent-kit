@@ -1,5 +1,5 @@
 skills:
   - source: https://github.com/larksuite/cli
-    branch: main
+    ref: v1.0.100
     sub-dir: skills
     skills: [lark-doc, lark-drive, lark-shared, lark-wiki, lark-meeting]
