@@ -1,3 +1,5 @@
 skills:
-  - source: /home/zihim/repo/apk-reverse
+  - source: https://codeberg.org/reverse-skill-lab/apk-reverse
+    branch: main
+    sub-dir: skills
     skills: [apk-reverse]

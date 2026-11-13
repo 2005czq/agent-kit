@@ -1,3 +1,5 @@
 skills:
-  - source: /home/zihim/repo/exe-reverse
+  - source: https://codeberg.org/reverse-skill-lab/exe-reverse
+    branch: main
+    sub-dir: skills
     skills: [exe-reverse]
