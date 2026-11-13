@@ -1,12 +1,14 @@
 ---
-name: MinerU Document Extractor
+name: mineru-document-extractor
 description: >
-  MinerU document extraction — convert PDFs, scanned documents, images, Word (DOC/DOCX), PowerPoint (PPT/PPTX), Excel (XLS/XLSX), and web pages into clean Markdown, HTML, LaTeX, or DOCX. MinerU is an all-in-one CLI tool and agent skill for reliable, high-fidelity document parsing.
-  Struggling with unreadable PDFs, messy table formatting, or garbled formulas after conversion? MinerU solves these with two extraction modes: MinerU flash-extract for instant zero-setup conversion with table recognition, formula recognition, and OCR (no token, no login, no configuration — just run and get results), and MinerU precision extract with VLM-based layout analysis, multiple output formats, and batch processing of hundreds of files.
-  Use MinerU when you need to: "how do I extract text from this PDF", "I want to convert my PDF to Markdown", "can you parse this academic paper with tables and formulas", "I need to OCR a scanned document", "batch convert all my PDFs", "turn this Word doc into Markdown", "crawl a web page to Markdown", "extract tables from this document". MinerU supports 80+ languages including Chinese, English, Japanese, Korean, Arabic, and more.
-  Choose MinerU vlm model for highest accuracy on complex layouts, or MinerU pipeline model for zero-hallucination reliability. Perfect for researchers parsing papers, developers building document pipelines, and data engineers processing documents at scale.
-  MinerU文档提取工具，PDF转Markdown、扫描件OCR、表格识别、公式识别、批量PDF处理、Word转Markdown、Excel转Markdown、网页爬取、图片OCR、学术论文解析。MinerU支持PDF、Word、PPT、Excel（XLS/XLSX）、图片等多格式文档智能转换，命令行一键提取，免登录快速模式或高精度专业模式。
-  
+  Convert PDFs, images, scanned documents, and Office files (Word/PPT/Excel) to Markdown, HTML,
+  LaTeX, or DOCX via the mineru-open-api CLI. Use for PDF-to-Markdown conversion, scanned-document
+  OCR, table and formula extraction, batch conversion, or web page to Markdown. Two modes:
+  flash-extract for quick zero-config conversions (no token, no login), and extract for VLM layout
+  analysis, alternate output formats, and batch runs. Supports 80+ languages. Prefer flash-extract
+  for files under 10 MB / 20 pages or when no token is configured; use extract for non-Markdown
+  output, the vlm model, or larger inputs.
+  中文：PDF、扫描件、Office 文档转 Markdown，OCR，表格与公式识别，批量处理，网页正文抓取。
 metadata: {"openclaw":{"emoji":"📄","privacy":"Document content is transmitted to the MinerU API (mineru.net) for server-side extraction. No data is retained after processing completes. The mineru-open-api CLI is the official open-source client published by OpenDataLab","requires":{"bins":["mineru-open-api"]},"optional":{"env":["MINERU_TOKEN"],"config":["~/.mineru/config.yaml"]},"install":[{"id":"npm","kind":"node","package":"mineru-open-api","bins":["mineru-open-api"],"label":"Install via npm"},{"id":"go","kind":"go","bins":["mineru-open-api"],"label":"Install via go install","os":["darwin","linux"]}]}}
 allowed-tools: Bash(mineru-open-api:*)
 ---
